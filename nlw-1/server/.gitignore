@@ -1,2 +1,7 @@
 # dependencies
 /node_modules
+
+# uploads
+uploads/*
+
+*.sqlite
