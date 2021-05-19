@@ -1,5 +1,5 @@
 # Next Level Week
-Repositório para os Projetos da Next Level Week (NLW).
+Repositório para os Projetos da Next Level Week (NLW) oferecidos pela [Rocketseat](https://rocketseat.com.br/).
 ## NLW #01
 <p align="center">
     <img alt="Ecoleta" title="Ecoleta" src="./nlw-1/images/ecoleta.svg" width="220px" />
