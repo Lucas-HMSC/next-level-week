@@ -1,6 +1,6 @@
 # Next Level Week
 Repositório para os Projetos da Next Level Week (NLW) oferecidos pela [Rocketseat](https://rocketseat.com.br/).
-## NLW #01
+## [NLW #01](https://github.com/Lucas-HMSC/next-level-week/tree/main/nlw-1)
 <p align="center">
     <img alt="Ecoleta" title="Ecoleta" src="./nlw-1/images/ecoleta.svg" width="220px" />
 </p>
@@ -19,7 +19,7 @@ O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de 
 ![ReactNative](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)
 
-## NLW #02
+## [NLW #02](https://github.com/Lucas-HMSC/next-level-week/tree/main/nlw-2)
 <p align="center">
     <img alt="Proffy" title="Proffy" src="./nlw-2/images/proffy.svg" width="220px" />
 </p>
