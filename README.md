@@ -40,10 +40,10 @@ O Proffy é uma plataforma de estudos online que ajuda pessoas a encontrarem pro
 
 ## [NLW #03](https://github.com/Lucas-HMSC/next-level-week/tree/main/nlw-3)
 <p align="center">
-    <img alt="Proffy" title="Happy" src="./nlw-3/images/happy.svg" width="220px" />
+    <img alt="Happy" title="Happy" src="./nlw-3/images/happy.svg" width="220px" />
 </p>
 <p align="center">
-    <img alt="Proffy" title="Happy" src="./nlw-3/images/happy.png" width="100%" />
+    <img alt="Happy" title="Happy" src="./nlw-3/images/happy.png" width="100%" />
 </p>
 
 ### Sobre o Projeto
@@ -57,7 +57,22 @@ O Happy é uma aplicação que conecta pessoas à casas de acolhimento instituci
 ![ReactNative](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)
 
-## NLW #04
-Em breve.
+## [NLW #04 - Trilha ReactJS](https://github.com/Lucas-HMSC/next-level-week/tree/main/nlw-4/moveit-next)
+<p align="center">
+    <img alt="Move.it" title="Move.it" src="./nlw-4/images/moveit.svg" width="220px" />
+</p>
+<p align="center">
+    <img alt="Move.it" title="Move.it" src="./nlw-4/images/moveit.png" width="100%" />
+</p>
+
+### Sobre o Projeto
+O move.it é um app que une a técnica de Pomodoro com a realização de exercícios físicos para quem passa muito tempo na frente do computador.
+
+### Tecnologias
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next-dot-js&logoColor=white)
+
 ## NLW #05
 Em breve.
