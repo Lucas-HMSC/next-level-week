@@ -74,5 +74,20 @@ O move.it é um app que une a técnica de Pomodoro com a realização de exercí
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next-dot-js&logoColor=white)
 
-## NLW #05
-Em breve.
+## [NLW #05 - Trilha ReactJS](https://github.com/Lucas-HMSC/next-level-week/tree/main/nlw-5/podcastr)
+<p align="center">
+    <img alt="Podcastr" title="Podcastr" src="./nlw-5/images/podcastr.svg" width="220px" />
+</p>
+<p align="center">
+    <img alt="Podcastr" title="Podcastr" src="./nlw-5/images/podcastr.png" width="100%" />
+</p>
+
+### Sobre o Projeto
+O podcastr é um app para reprodução de episódios em áudio do seu podcast favorito.
+
+### Tecnologias
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next-dot-js&logoColor=white)
+![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
