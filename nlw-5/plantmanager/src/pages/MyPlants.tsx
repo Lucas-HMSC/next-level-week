@@ -3,6 +3,7 @@ import { FlatList, Image, StyleSheet, Text, View } from 'react-native';
 
 import { Header } from '../components/Header';
 import { PlantCardSecondary } from '../components/PlantCardSecondary';
+import { Load } from '../components/Load';
 
 import { loadPlant, PlantProps } from '../libs/storage';
 import { formatDistance } from 'date-fns';
@@ -38,6 +39,10 @@ export function MyPlants() {
 
     loadStorageData();
   }, []);
+
+  if (loading) {
+    return <Load />
+  }
 
   return (
     <View style={styles.container}>
