@@ -109,3 +109,7 @@ Aplicativo para lhe ajudar a lembrar de cuidar de suas plantas de forma fácil d
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![ReactNative](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)
+
+## Licensa 
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://raw.githubusercontent.com/Lucas-HMSC/next-level-week/main/LICENSE) para mais detalhes.
