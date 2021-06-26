@@ -1,7 +1,11 @@
 import React from 'react';
 import { FlatList, ImageBackground, Text, View } from 'react-native';
+import { useRoute } from '@react-navigation/native';
 import { BorderlessButton } from 'react-native-gesture-handler';
 
+import { api } from '../../services/api';
+
+import { AppointmentProps } from '../../components/Appointment';
 import { Background } from '../../components/Background';
 import { ListHeader } from '../../components/ListHeader';
 import { ListDivider } from '../../components/ListDivider';
@@ -16,7 +20,22 @@ import { Fontisto } from '@expo/vector-icons';
 
 import { styles } from './styles';
 
+type Params = {
+  guildSelected: AppointmentProps;
+}
+
 export function AppointmentDetails() {
+  const route = useRoute();
+  const { guildSelected } = route.params as Params;
+
+  async function fetchGuildInfo() {
+    try {
+      const response = await api.get(`/guilds/${guildSelected.guild.id}/widget.json`);
+    } catch {
+
+    }
+  }
+
   const members = [
     {
       id: '1',
@@ -53,10 +72,10 @@ export function AppointmentDetails() {
       >
         <View style={styles.bannerContent}>
           <Text style={styles.title}>
-            Lendários
+            { guildSelected.guild.name }
           </Text>
           <Text style={styles.subtitle}>
-            É hoje que vamos chegar ao challenger sem perder uma partida da md10
+            { guildSelected.description }
           </Text>
         </View>
       </ImageBackground>
@@ -74,7 +93,7 @@ export function AppointmentDetails() {
             data={ item }
           />
         )}
-        ItemSeparatorComponent={() => <ListDivider />}
+        ItemSeparatorComponent={() => <ListDivider isCentered />}
         style={styles.members}
       />
 
