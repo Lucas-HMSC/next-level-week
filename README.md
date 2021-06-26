@@ -110,6 +110,24 @@ Aplicativo para lhe ajudar a lembrar de cuidar de suas plantas de forma fácil d
 ![ReactNative](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)
 
+## [NLW #06 - Trilha React Native](https://github.com/Lucas-HMSC/next-level-week/tree/main/nlw-6/gameplay)
+<p align="center">
+    <img alt="GamePlay" title="GamePlay" src="./nlw-6/images/gameplay.svg" width="220px" />
+</p>
+<p align="center">
+    <img alt="GamePlay" title="GamePlay" src="./nlw-6/images/gameplay.png" width="100%" />
+</p>
+
+### Sobre o Projeto
+Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jogar com os amigos. Crie grupos para jogar seus games favoritos com seus amigos com esse App que possui autenticação com Discord.
+
+### Tecnologias
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![ReactNative](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)
+
 ## Licensa 
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://raw.githubusercontent.com/Lucas-HMSC/next-level-week/main/LICENSE) para mais detalhes.
