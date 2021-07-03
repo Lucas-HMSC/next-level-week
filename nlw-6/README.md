@@ -1,9 +1,9 @@
 ## NLW #06 - Trilha ReactJS
 <p align="center">
-    <img alt="Letmeask" title="Letmeask" src="./nlw-6/images/letmeask.svg" width="220px" />
+    <img alt="Letmeask" title="Letmeask" src="./images/letmeask.svg" width="220px" />
 </p>
 <p align="center">
-    <img alt="Letmeask" title="Letmeask" src="./nlw-6/images/letmeask.png" width="100%" />
+    <img alt="Letmeask" title="Letmeask" src="./images/letmeask.png" width="100%" />
 </p>
 
 ### Sobre o Projeto
