@@ -110,6 +110,24 @@ Aplicativo para lhe ajudar a lembrar de cuidar de suas plantas de forma fácil d
 ![ReactNative](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)
 
+## [NLW #06 - Trilha ReactJS](https://github.com/Lucas-HMSC/next-level-week/tree/main/nlw-6/letmeask)
+<p align="center">
+    <img alt="Letmeask" title="Letmeask" src="./nlw-6/images/letmeask.svg" width="220px" />
+</p>
+<p align="center">
+    <img alt="Letmeask" title="Letmeask" src="./nlw-6/images/letmeask.png" width="100%" />
+</p>
+
+### Sobre o Projeto
+Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.
+
+### Tecnologias
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Firebase](https://img.shields.io/badge/Firebase-009de1?style=for-the-badge&logo=firebase&logoColor=ffc234)
+![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+
 ## [NLW #06 - Trilha React Native](https://github.com/Lucas-HMSC/next-level-week/tree/main/nlw-6/gameplay)
 <p align="center">
     <img alt="GamePlay" title="GamePlay" src="./nlw-6/images/gameplay.svg" width="220px" />
@@ -127,6 +145,7 @@ Aplicativo para lhe ajudar a conectar-se e organiza o momento de diversão e jog
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![ReactNative](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)
+![Expo](https://img.shields.io/badge/OAuth2-333333?style=for-the-badge&logo=oauth&logoColor=ffffff)
 
 ## Licensa 
 
