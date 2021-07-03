@@ -1,3 +1,37 @@
+## NLW #06 - Trilha ReactJS
+<p align="center">
+    <img alt="Letmeask" title="Letmeask" src="./nlw-6/images/letmeask.svg" width="220px" />
+</p>
+<p align="center">
+    <img alt="Letmeask" title="Letmeask" src="./nlw-6/images/letmeask.png" width="100%" />
+</p>
+
+### Sobre o Projeto
+Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.
+
+### Tecnologias
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Firebase](https://img.shields.io/badge/Firebase-009de1?style=for-the-badge&logo=firebase&logoColor=ffc234)
+![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+
+### Como executar
+
+- Clone o repositório
+- Acesse a pasta `letmeask`, e instale as dependências com `yarn` ou `npm install`.
+- Inicie a aplicação Web com `npm run start` ou `yarn start`.
+- Será necessário criar uma conta no Firebase e um projeto para disponibilizar um Realtime Database. Em seguida, defina no arquivo .env as configurações do seu projeto (remova o `.example` do arquivo `.env.example`).
+```cl
+REACT_APP_API_KEY=""
+REACT_APP_AUTH_DOMAIN=""
+REACT_APP_DATABASE_URL=""
+REACT_APP_PROJECT_ID=""
+REACT_APP_STORAGE_BUCKET=""
+REACT_APP_MESSAGING_SENDER_ID=""
+REACT_APP_APP_ID=""
+```
+
 ## NLW #06 - Trilha React Native
 <p align="center">
     <img alt="GamePlay" title="GamePlay" src="./images/gameplay.svg" width="220px" />
