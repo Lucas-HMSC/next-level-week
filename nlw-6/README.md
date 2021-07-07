@@ -63,3 +63,24 @@ RESPONSE_TYPE=
 CLIENT_ID=
 CDN_IMAGE=
 ```
+
+## NLW #06 - Trilha NodeJS
+<p align="center">
+    <img alt="nlwValoriza" title="nlwValoriza" src="./images/nlwValoriza.png" width="100%" />
+</p>
+
+### Sobre o Projeto
+Valoriza é uma plataforma para promover o reconhecimento entre companheiros de equipe.
+
+### Tecnologias
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![ExpressJS](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![JWT](https://img.shields.io/badge/JSONWebToken-000000?style=for-the-badge&logo=jwt&logoColor=000000)
+
+### Como executar
+
+- Clone o repositório
+- Acesse a pasta `nlwValoriza`, e instale as dependências com `yarn` ou `npm install`.
+- Execute `yarn typeorm migration:run` ou `npm run typeorm migration:run` para criar as tabelas do banco de dados.
+- Inicie a aplicação com `yarn dev` ou `npm run dev`.
