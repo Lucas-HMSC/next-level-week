@@ -19,4 +19,3 @@ routes.get('/messages/:id', messagesController.showByUser);
 export {
   routes
 }
-  
