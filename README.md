@@ -110,6 +110,20 @@ Aplicativo para lhe ajudar a lembrar de cuidar de suas plantas de forma fácil d
 ![ReactNative](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)
 
+## [NLW #05 - Trilha NodeJS](https://github.com/Lucas-HMSC/next-level-week/tree/main/nlw-5/chatty)
+<p align="center">
+    <img alt="chatty" title="chatty" src="./nlw-5/images/chatty.png" width="100%" />
+</p>
+
+### Sobre o Projeto
+O Chatty é um chat para atendimento de clientes em tempo real.
+
+### Tecnologias
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![ExpressJS](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![SOCKET.IO](https://img.shields.io/badge/SOCKET.IO-ffffff?style=for-the-badge&logo=socket.io&logoColor=000000)
+
 ## [NLW #06 - Trilha ReactJS](https://github.com/Lucas-HMSC/next-level-week/tree/main/nlw-6/letmeask)
 <p align="center">
     <img alt="Letmeask" title="Letmeask" src="./nlw-6/images/letmeask.svg" width="220px" />
