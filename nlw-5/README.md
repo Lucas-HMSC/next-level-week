@@ -45,3 +45,25 @@ Aplicativo para lhe ajudar a lembrar de cuidar de suas plantas de forma fácil d
 - Clone o repositório
 - Acesse a pasta `plantmanager`, e instale as dependências com `yarn` ou `npm install`.
 - Execute `expo start`.
+
+## NLW #05 - Trilha NodeJS
+<p align="center">
+    <img alt="chatty" title="chatty" src="./images/chatty.png" width="100%" />
+</p>
+
+### Sobre o Projeto
+O Chatty é um chat para atendimento de clientes em tempo real.
+
+### Tecnologias
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![ExpressJS](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![SOCKET.IO](https://img.shields.io/badge/SOCKET.IO-ffffff?style=for-the-badge&logo=socket.io&logoColor=000000)
+
+### Como executar
+
+- Clone o repositório
+- Acesse a pasta `chatty`, e instale as dependências com `yarn` ou `npm install`.
+- Execute `yarn typeorm migration:run` ou `npm run typeorm migration:run` para criar as tabelas do banco de dados.
+- Inicie a aplicação com `yarn dev` ou `npm run dev`.
+- A interface estará disponível em `http://localhost:3333/pages/admin` e `http://localhost:3333/pages/client`.
