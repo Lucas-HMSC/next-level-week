@@ -1,17 +1,13 @@
+import 'reflect-metadata';
 import express from 'express';
+
+import { router } from './routes';
+
+import './database';
 
 const app = express();
 
-app.get('/aula01', (request, response) => {
-  return response.json({
-    message: 'Hello World - NLW #04'
-  });
-});
-
-app.post('/aula01', (request, response) => {
-  return response.json({
-    message: 'Aula assistida com sucesso!'
-  });
-});
+app.use(express.json());
+app.use(router);
 
 app.listen(3333, () => console.log('Server is running on port 3333!'));
