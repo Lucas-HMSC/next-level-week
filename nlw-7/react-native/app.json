@@ -3,6 +3,7 @@
     "name": "react-native",
     "slug": "react-native",
     "version": "1.0.0",
+    "scheme": "react-native",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
