@@ -1,5 +1,6 @@
 # Next Level Week
 Repositório para os Projetos da Next Level Week (NLW) oferecidos pela [Rocketseat](https://rocketseat.com.br/).
+
 ## [NLW #01 - Trilha OmniStack](https://github.com/Lucas-HMSC/next-level-week/tree/main/nlw-1)
 <p align="center">
     <img alt="Ecoleta" title="Ecoleta" src="./nlw-1/images/ecoleta.svg" width="220px" />
@@ -189,6 +190,25 @@ Valoriza é uma plataforma para promover o reconhecimento entre companheiros de 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![ExpressJS](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 ![JWT](https://img.shields.io/badge/JSONWebToken-000000?style=for-the-badge&logo=jwt&logoColor=000000)
+
+## [NLW #07 - Trilha Impulse](https://github.com/Lucas-HMSC/next-level-week/tree/main/nlw-7)
+<p align="center">
+    <img alt="NLW Heat" title="NLW Heat" src="./nlw-7/images/nlw-heat.svg" width="220px" />
+</p>
+<p align="center">
+    <img alt="NLW Heat" title="NLW Heat" src="./nlw-7/images/nlw-heat.png" width="100%" />
+</p>
+
+### Sobre o Projeto
+A NLW Heat é um projeto de aquecimento para o DoWhile 2021, com uma landing page onde os usuários pode se autenticar com o GitHub e enviar mensagens sobre o evento.
+
+### Tecnologias
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![ReactNative](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=expo&logoColor=white)
 
 ## Licensa 
 
