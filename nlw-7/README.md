@@ -1,4 +1,4 @@
-## NLW #01 - Trilha OmniStack
+## NLW #07 - Trilha Impulse
 <p align="center">
     <img alt="NLW Heat" title="NLW Heat" src="./images/nlw-heat.svg" width="220px" />
 </p>
