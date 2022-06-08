@@ -6,17 +6,27 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
 
-  options: {
-    width: '100%',
-    marginBottom: 48,
-    flexDirection: 'row',
-    justifyContent: 'center',
+  image: {
+    width: 36,
+    height: 36,
+    marginTop: 42,
+    marginBottom: 10,
   },
 
-  title: {
+  title: {  
     fontSize: 20,
-    marginBottom: 32,
+    marginBottom: 24,
     fontFamily: theme.fonts.medium,
     color: theme.colors.text_primary,
+  },
+
+  button: {
+    height: 40,
+    backgroundColor: theme.colors.surface_secondary,
+    borderRadius: 4,
+  },
+
+  buttonTitle: {
+
   },
 });
