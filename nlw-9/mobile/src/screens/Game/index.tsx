@@ -4,9 +4,10 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { Entypo } from '@expo/vector-icons';
 
+import { DuoCard, DuoCardProps } from '../../components/DuoCard';
 import { Background } from '../../components/Background';
 import { Heading } from '../../components/Heading';
-import { DuoCard, DuoCardProps } from '../../components/DuoCard';
+import { DuoMatch } from '../../components/DuoMatch';
 
 import { GameParams } from '../../@types/navigation';
 
@@ -17,6 +18,7 @@ import { styles } from './styles';
 
 export function Game() {
   const [duos, setDuos] = useState<DuoCardProps[]>([]);
+  const [discordDuoSelected, setDiscordDuoSelected] = useState('');
 
   const navigation = useNavigation();
   const route = useRoute();
@@ -24,6 +26,12 @@ export function Game() {
 
   function handleGoBack() {
     navigation.goBack();
+  }
+
+  async function getDiscordUser(adsId: string) {
+    fetch(`http://192.168.0.6:3333/ads/${adsId}/discord`)
+      .then((response) => response.json())
+      .then(({discord}) => setDiscordDuoSelected(discord));
   }
 
   useEffect(() => {
@@ -69,18 +77,24 @@ export function Game() {
           renderItem={({item}) => (
             <DuoCard 
               data={ item } 
-              onConnect={() => {}}
+              onConnect={() => getDiscordUser(item.id)}
             />
           )}
           horizontal
           style={ styles.containerList }
           contentContainerStyle={[ duos.length > 0 ? styles.contentList : styles.emptyContentList ]}
-          showsHorizontalScrollIndicator={false}k
+          showsHorizontalScrollIndicator={false}
           ListEmptyComponent={() => (
             <Text style={ styles.emptyListText }> 
               Não há anúncios publicados ainda.
             </Text>
           )}
+        />
+
+        <DuoMatch
+          visible={discordDuoSelected.length > 0}
+          onClose={() => setDiscordDuoSelected('')}
+          discord={ discordDuoSelected }
         />
       </SafeAreaView>
     </Background>
